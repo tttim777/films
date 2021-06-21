@@ -3,6 +3,17 @@
     padding: 0;
 }
 
+body {
+    font-size: 1.2em;
+    background-color: #fff;
+    color: #555;
+}
+
+p {
+    padding: 0 0 20px 0;
+    line-height: 1.7em;
+}
+
 input[type="text"],
 input[type="password"],
 input[type=search] {
@@ -28,6 +39,23 @@ h2 {
 
 h2 {
     font-size: 140%;
+}
+
+a,
+a:hover {
+    outline: none;
+    text-decoration: underline;
+    color: #aeb002;
+}
+
+ul {
+    margin: 2px 0 22px 17px;
+}
+
+ul li {
+    margin: 0 0 6px 0;
+    padding: 0 0 4px 5px;
+    line-height: 1.5em;
 }
 
 .header {
@@ -137,4 +165,23 @@ ul.menu li a:hover {
 
 .sidebar h2 {
     color: #136cd2;
+}
+
+.lables_passreg_text {
+    font-size: 0.7em;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+.sidebar ul {
+    margin: 0;
+}
+
+.sidebar ul li {
+    list-style-type: none;
+    margin: 0 0 0 0;
+}
+
+.sidebar .rating_sidebar {
+    float: right;
 }
