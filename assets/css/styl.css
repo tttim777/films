@@ -3,6 +3,17 @@
     padding: 0;
 }
 
+body {
+    font-size: 1.2em;
+    background-color: #fff;
+    color: #555;
+}
+
+p {
+    padding: 0 0 20px 0;
+    line-height: 1.7em;
+}
+
 input [type="text"],
 input [type="password"],
 input [type="search"] {
@@ -30,6 +41,16 @@ h2 {
     font-size: 140%;
 }
 
+ul {
+    margin: 2px 0 22px 17px;
+}
+
+ul li {
+    margin: 0 0 6px 0;
+    padding: 0 0 4px 5px;
+    line-height: 1.5em;
+}
+
 a,
 a:hover {
     outline: none;
@@ -39,7 +60,7 @@ a:hover {
 
 .header {
     background-color: darkslateblue;
-    height: 210px;
+    height: 250px;
     font-size: 0.9em;
     margin-left: 0px;
     margin-right: 0px;
@@ -150,4 +171,43 @@ ul.menu li a:hover {
     font-size: 0.7em;
     margin-top: 3%;
     margin-left: 2%;
+}
+
+.sidebar ul {
+    margin: 0;
+}
+
+.sidebar ul li {
+    list-style-type: none;
+    margin: 0 0 0 0;
+}
+
+.sidebar .rating_sidebar {
+    float: right;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    padding: 28px 0 5px 0;
+    text-align: center;
+    background-color: darkslateblue;
+    color: #a8aa94;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-width: 900px;
+}
+
+.footer a {
+    color: #a8aa94;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer p {
+    padding: 0 0 10px 0;
 }
