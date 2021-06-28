@@ -64,7 +64,7 @@ hr {
 
 .header {
     background-color: darkslateblue;
-    height: 250px;
+    height: 230px;
     font-size: 0.9em;
     margin-left: 0px;
     margin-right: 0px;
@@ -117,7 +117,7 @@ ul.menu {
 
 ul.menu li {
     float: left;
-    padding: 0 0 0 9px;
+    padding: 0 0 0 8px;
     list-style: none;
     margin: 1px 2px 0 0;
 }
@@ -213,6 +213,32 @@ ul.menu li a:hover {
 
 .posts .posts_content {
     font-size: 0.8em;
+}
+
+.info_film_page {
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.info_film_page .label {
+    font-size: 1.1em;
+}
+
+.info_film_page .value {
+    font-size: 1em;
+    color: #49945a;
+    margin-right: 3%;
+}
+
+.description_film {
+    margin-bottom: 15%;
+}
+
+.description_film img {
+    float: left;
+    margin-right: 2%;
+    border-radius: 5px;
+    border: solid 5px #dad7d5;
 }
 
 .footer {
