@@ -64,7 +64,7 @@ hr {
 
 .header {
     background-color: darkslateblue;
-    height: 230px;
+    height: 240px;
     font-size: 0.9em;
     margin-left: 0px;
     margin-right: 0px;
@@ -371,4 +371,79 @@ td img {
 
 .footer p {
     padding: 0 0 10px 0;
+}
+
+
+/*css mobile*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+    .header {
+        background-color: #257965;
+        min-width: 100%;
+        height: 20%;
+        text-align: center;
+    }
+    .logo {
+        width: 100%;
+    }
+    .site_content {
+        width: 100%;
+    }
+    .menubar {
+        width: 100%;
+        height: 100%;
+    }
+    .content {
+        width: 100%;
+        text-align: center;
+    }
+    .site_content {
+        width: 100%;
+        text-align: center;
+    }
+    .sidebar_container {
+        display: none;
+    }
+    ul.menu {
+        float: none;
+    }
+    ul.menu li {
+        margin: 0;
+        padding: 0;
+        float: none;
+    }
+    .logo h1 {
+        font: normal 191% 'century gothic', arial, sans-serif;
+    }
+    .logo h2 {
+        font: normal 100% 'century gothic', arial, sans-serif;
+        color: white;
+    }
+    .content h1,
+    h2 {
+        font: normal 110% 'century gothic', arial;
+    }
+    .footer {
+        background-color: #257965;
+        min-width: 100%;
+        height: 20%;
+        text-align: center;
+    }
+    .footer p {
+        color: white;
+    }
+    .footer a {
+        color: white;
+    }
+    .films_block img {
+        width: 43%;
+    }
+    .posts_content p {
+        line-height: 1.5em;
+        padding: 3%;
+        text-align: left;
+    }
+    .posts p {
+        font-size: 120%;
+    }
 }
